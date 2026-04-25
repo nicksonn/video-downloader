@@ -1,0 +1,165 @@
+═══════════════════════════════════════════════════════════════════════
+         🎬 DOWNLOADER DE VÍDEOS - INSTRUÇÕES DE USO
+═══════════════════════════════════════════════════════════════════════
+
+📋 PASSO 1: PREPARAR O AMBIENTE
+───────────────────────────────
+
+Se é a PRIMEIRA VEZ que usa a ferramenta:
+  1. Clique duplo em: TESTAR.py
+  2. Isso vai verificar se tudo está instalado corretamente
+  3. Se algum teste falhar, siga as instruções que aparecem
+  4. Se todos passarem, continue para o Passo 2
+
+
+📝 PASSO 2: CRIAR ARQUIVO COM LINKS
+───────────────────────────────────
+
+1. Crie um arquivo novo chamado "meus_videos.txt" (ou use exemplo_links.txt)
+
+2. Abra em Bloco de Notas ou editor de texto
+
+3. Cole seus links, um por linha:
+
+   https://www.tiktok.com/@usuario/video/123456
+   https://www.youtube.com/watch?v=ABC123
+   https://www.instagram.com/reel/XYZ789/
+
+4. Salve o arquivo
+
+💡 DICA: Você pode clicar com botão direito em um vídeo
+        → "Copiar link" → colar no arquivo de texto
+
+
+🚀 PASSO 3: EXECUTAR A FERRAMENTA
+─────────────────────────────────
+
+OPÇÃO A: Duplo clique simples
+  → Clique 2 vezes em: EXECUTAR.bat
+
+OPÇÃO B: Rodar manualmente
+  → Abra CMD/Terminal na pasta
+  → Digite: python video_downloader.py
+
+
+🎯 PASSO 4: USAR A INTERFACE
+───────────────────────────
+
+Na janela que abrir:
+
+1. SELECIONAR ARQUIVO
+   → Clique em "Selecionar" (ao lado do arquivo de links)
+   → Escolha seu arquivo .txt com os links
+
+2. ESCOLHER PASTA
+   → Clique em "Procurar" (ao lado da pasta de destino)
+   → Escolha onde salvar os vídeos
+   → OU deixe padrão: C:\Users\SEU_USUARIO\Downloads\Videos
+
+3. INICIAR
+   → Clique no botão verde "▶ INICIAR DOWNLOADS"
+   → Acompanhe o progresso no log abaixo
+
+4. AGUARDAR
+   → Não feche a janela enquanto baixa!
+   → Leia o log para ver o progresso
+   → Pode demorar vários minutos dependendo da quantidade
+
+5. ABRIR PASTA
+   → Clique em "🔍 Abrir pasta de destino" para ver os vídeos baixados
+
+
+⚙️  CONFIGURAÇÕES IMPORTANTES
+────────────────────────────
+
+✓ A ferramenta baixa SEMPRE na MELHOR QUALIDADE disponível
+✓ Combina melhor vídeo + melhor áudio automaticamente
+✓ Funciona com: YouTube, TikTok, Instagram e 500+ outros sites
+✓ Nomeia arquivos com título original do vídeo
+
+
+❌ ERROS COMUNS E SOLUÇÕES
+──────────────────────────
+
+ERRO: "yt-dlp não encontrado"
+SOLUÇÃO:
+  → Abra CMD
+  → Digite: pip install yt-dlp -U
+  → Aguarde terminar
+  → Tente novamente
+
+ERRO: "Interface abriu mas nada baixou"
+SOLUÇÃO:
+  → Clique em TESTAR.py para diagnosticar
+  → Verifique se links estão corretos (sem espaços extras)
+  → Verifique permissão de escrita na pasta de destino
+
+ERRO: "Vídeo privado / removido"
+SOLUÇÃO:
+  → O vídeo não está mais disponível
+  → Remova esse link do arquivo
+  → Tente com outro vídeo
+
+ERRO: "Pasta não existe"
+SOLUÇÃO:
+  → Verifique o caminho da pasta
+  → Pode estar digitado errado
+  → Use o botão "Procurar" para selecionar
+
+
+💾 ESTRUTURA DE ARQUIVOS
+────────────────────────
+
+Pasta "Download Videos" contém:
+
+  EXECUTAR.bat              ← Atalho para rodar a ferramenta
+  video_downloader.py       ← Ferramenta principal
+  TESTAR.py                 ← Script de diagnóstico
+  exemplo_links.txt         ← Exemplo com links
+  INSTRUÇÕES.txt            ← Este arquivo
+  README.md                 ← Documentação completa
+
+
+🔍 VERIFICAR DOWNLOADS
+──────────────────────
+
+Depois de baixar:
+
+1. Clique em "🔍 Abrir pasta de destino"
+2. Você verá os arquivos .mp4 (ou outro formato) salvos
+3. Pronto! Pode assistir, compartilhar, etc.
+
+
+⚡ DICAS E TRUQUES
+──────────────────
+
+→ Você pode arrastar e soltar arquivo .txt na interface
+→ Deixe a ferramenta rodar enquanto faz outras coisas
+→ Use TESTAR.py sempre que achar que algo não está certo
+→ Se um vídeo falhar, tente novamente depois
+→ Use "Limpar Log" para deixar interface mais limpa
+
+
+⚠️  AVISOS LEGAIS
+─────────────────
+
+✓ Use apenas vídeos seus ou com permissão do autor
+✓ Não republique conteúdo alheio sem autorização
+✓ Respeite direitos autorais e privacidade
+✓ A ferramenta é apenas para download pessoal
+
+
+📞 SUPORTE RÁPIDO
+─────────────────
+
+Se algo não funcionar:
+  1. Execute TESTAR.py para diagnosticar
+  2. Verifique arquivo de links (caminhos corretos)
+  3. Tente com um único link primeiro
+  4. Reinicie o computador
+  5. Tente como Administrador
+
+
+═══════════════════════════════════════════════════════════════════════
+Versão: 1.0 | Data: 2026-04-24
+═══════════════════════════════════════════════════════════════════════

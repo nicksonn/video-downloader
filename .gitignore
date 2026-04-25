@@ -1,0 +1,38 @@
+# Builds e Distribuição
+dist/
+build/
+*.spec
+VideoDownloader_Instalavel/
+*.egg-info/
+*.whl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+.directory
+
+# Temporários
+*.tmp
+*.bak
+*.log
+
+# Usuário
+links.txt
+meus_videos.txt

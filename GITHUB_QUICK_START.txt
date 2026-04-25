@@ -1,0 +1,79 @@
+╔═══════════════════════════════════════════════════════════════════════╗
+║                   🚀 GITHUB QUICK START - RESUMO                       ║
+║                                                                         ║
+║            Publicar Video Downloader no GitHub em 5 minutos            ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+
+📋 ANTES DE COMEÇAR:
+───────────────────
+1. Crie conta em github.com (se não tiver)
+2. Instale Git: https://git-scm.com/download/win
+3. Crie novo repositório em github.com:
+   Nome: video-downloader
+   Visibilidade: Public
+
+
+⚡ COMANDOS RÁPIDOS:
+──────────────────
+
+# 1. Abra PowerShell ou CMD nesta pasta
+
+# 2. Configure Git (primeira vez apenas)
+git config --global user.name "Seu Nome"
+git config --global user.email "seu.email@example.com"
+
+# 3. Inicialize e envie
+git init
+git add .
+git commit -m "Initial commit: Video Downloader v1.0"
+git branch -M main
+git remote add origin https://github.com/SEU-USUARIO/video-downloader.git
+git push -u origin main
+
+
+✅ PRONTO!
+─────────
+Seu código está no GitHub em:
+https://github.com/SEU-USUARIO/video-downloader
+
+
+📚 LEIA PARA MAIS DETALHES:
+──────────────────────────
+PUBLICAR_NO_GITHUB.md
+→ Guia passo a passo completo
+→ Screenshots e explicações
+→ Resolução de problemas
+
+
+🔑 SE PEDIR PASSWORD:
+───────────────────
+Use Personal Access Token:
+1. Vá para: https://github.com/settings/tokens
+2. Clique: "Generate new token"
+3. Marque: ✓ repo
+4. Copie o token
+5. Cole no terminal (mostra como pontos)
+
+
+💡 DICAS:
+────────
+• Depois de fazer mudanças, rode:
+  git add .
+  git commit -m "Descrição da mudança"
+  git push
+
+• Para criar Release (executável disponível):
+  Vá para GitHub → Releases → Create new release
+  Faça upload do VideoDownloader_Instalavel.zip
+
+
+❓ DÚVIDAS:
+──────────
+Abra este arquivo: PUBLICAR_NO_GITHUB.md
+Tem solução para todos os problemas comuns!
+
+
+═══════════════════════════════════════════════════════════════════════
+
+Pronto? Comece com os "COMANDOS RÁPIDOS" acima!
